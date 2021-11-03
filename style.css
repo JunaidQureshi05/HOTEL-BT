@@ -151,3 +151,8 @@ background: url('./img/photo-1.jpg') center center/cover no-repeat;
 .box:nth-child(2) {
   background-color: #f7c08a;
 }
+
+footer{
+	text-align: center;
+	padding: 30px;
+}
