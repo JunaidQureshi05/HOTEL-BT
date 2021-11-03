@@ -7,7 +7,16 @@ body{
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	background-color: #333;
 }
+.white{
+	color: white;
+}
 
+.mb-1{
+	margin-bottom: 10px;
+}
+.mb-2{
+	margin-bottom: 20px;
+}
 h1#brand{
 	font-size: 24px;
 	margin: 0; 
@@ -58,18 +67,14 @@ align-items: center;
 
 .showcase h1{
 	font-size: 60px;
-	color: white;
-
 }
 
 .showcase p{
 	font-size: 20px;
-	margin: 10px 0;
 }
 
-h1,h2,h3,p{
+h1,h2,h3{
 	padding-bottom: 20px;
-	color: white;
 	line-height: 1.2em;
 }
 
@@ -123,4 +128,26 @@ background: url('./img/photo-1.jpg') center center/cover no-repeat;
 	border: none;
 	color: black;
 	font-size: 18px;	
+}
+
+.features{
+	width: 100%;
+	display: flex;
+}
+.box{
+	width: cal(100/3)%;
+	height: 100%;
+	padding: 50px;
+	background-color: #f4f4f4;
+	text-align: center;
+	color: black;
+}
+
+.box i{
+	font-size: 50px;
+	margin-bottom: 10px;
+}
+
+.box:nth-child(2) {
+  background-color: #f7c08a;
 }
