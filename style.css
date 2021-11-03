@@ -32,24 +32,25 @@ justify-content: space-between;
 align-items: center;
 }
 
-#nav  li {
+#nav  a {
 	display: block;
 	padding:20px;
 }
 
-#nav li a{
+#nav  a{
 	color: white;
 	text-decoration: none;
 }
-#nav li:hover{
+#nav a:hover{
 	background-color: #444;
 }
 .selected{
 	background-color: #444;
 
 }
-#nav .selected a {
+#nav a.selected  {
 	color: #f7c08a ;
+	background-color: #444;
 }
 #nav{
 	display: flex;
