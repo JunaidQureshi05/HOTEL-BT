@@ -91,3 +91,36 @@ h1,h2,h3,p{
   background: #f7c08a;
   color: #333;
 }
+
+.home-info{
+	height: 400px;
+	width: 100%;
+	display: flex;
+}
+
+.home-info-image,.home-info-text{
+	width: 50%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.home-info-image{
+background: url('./img/photo-1.jpg') center center/cover no-repeat;
+}
+
+.home-info-text{
+	padding: 50px 30px;
+	text-align: center;
+
+}
+.home-info-text p{
+	line-height: 1.7em;
+}
+.btn-light{
+	background-color: white;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;										
+ 	padding: 13px 20px;
+	border: none;
+	color: black;
+	font-size: 18px;	
+}
