@@ -345,4 +345,13 @@ input:focus {
     display: block;
     text-align: center;
   }
+  .contact {
+    display: block;
+  }
+  h1#brand {
+    margin: 10px 0;
+  }
+  navbar {
+    height: 20vh;
+  }
 }
