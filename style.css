@@ -312,9 +312,7 @@ input:focus {
     align-items: center;
     height: 15vh;
   }
-  .showcase {
-    height: 85vh;
-  }
+
   .showcase h1 {
     font-size: 40px;
   }
@@ -353,5 +351,8 @@ input:focus {
   }
   navbar {
     height: 20vh;
+  }
+  .showcase {
+    height: 80vh;
   }
 }
