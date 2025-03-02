@@ -1,7 +1,5 @@
 # HOTEL-BT
 
-
-
 > A stylish and modern hotel website built using HTML & CSS. This was my first project after learning the fundamentals of web development.
 
 ## 🚀 Live Demo
@@ -25,8 +23,7 @@
 
 ## 📷 Screenshots
 
-
-
+![Screenshot 1](img/image.png)
 
 ## 🏗️ Installation & Usage
 
@@ -53,4 +50,3 @@ This project is open-source and available under the [MIT License](LICENSE).
 ---
 
 💻 Built with passion by Junaid
-
